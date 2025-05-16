@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - ShopHome</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <h1 class="logo">ShopHome</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-container">
+            <div class="cart-items">
+                <!-- Cart items will be loaded by JavaScript -->
+                <p class="empty-cart-message">Your cart is empty.</p>
+            </div>
+            <div class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-details">
+                    <p>Subtotal: <span id="subtotal">$0.00</span></p>
+                    <p>Shipping: <span id="shipping">$0.00</span></p>
+                    <p class="total">Total: <span id="total">$0.00</span></p>
+                </div>
+                <a href="checkout.html" class="btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ShopHome. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

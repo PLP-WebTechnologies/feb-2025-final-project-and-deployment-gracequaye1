@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHome - Your Online Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <h1 class="logo">ShopHome</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to ShopHome</h2>
+            <p>Discover amazing products at great prices</p>
+            <a href="products.html" class="btn">Shop Now</a>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <!-- Featured products will be loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- More Products -->
+        <section class="more-products">
+            <h2>More to Love</h2>
+            <div class="products-grid" id="more-products-grid">
+                <!-- More products will be loaded by JavaScript -->
+            </div>
+            <div class="view-all">
+                <a href="products.html" class="btn">View All Products</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ShopHome. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
